@@ -1,0 +1,17 @@
+<div class="container">
+
+  <h1>Your encrypted text:</h1>
+  <h3><%= @text %></h3>
+
+
+  <h1>Your decrypted text are:</h1>
+
+  <ul>
+  <% @decrypts.each do |decrypt| %>
+
+    <li><%= decrypt %></li>
+
+  <% end%>
+  </ul>
+
+</div>
